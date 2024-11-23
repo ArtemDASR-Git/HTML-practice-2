@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+    <h1>Анкета на поступление в вуз</h1>
+    </header>
+
+    <main>
+        <Form>
+            <div>
+                <label for="name">Имя</label>
+                <input type="text" name="text" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="lastName">Фамилия</label>
+                <input type="text" name="text" id="lastName">
+            </div>
+            <br>
+            <div>
+                <label for="date">Дата рождения</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+            <div>
+                <label for="sex">Пол</label>
+                <select name="sex" id="sex">
+                    <option value="male">Мужской</option>
+                    <option value="femail">Женский</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="phoneNumber">Номер телефона</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber">
+            </div>
+            <br>
+            <div>
+                <label for="message">Пожилания</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Пожилания вузу"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="resolve">Подтвержение дынных</label>
+                <input type="checkbox" name="resolve" id="resolve">
+            </div>
+            <br>
+            <button type="submit">Отправить</button>
+
+        </Form>
+
+    </main>
+
+    
+</body>
+</html>
